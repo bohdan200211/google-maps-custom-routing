@@ -14,57 +14,34 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+App.js - основна логіка програми, визначення методів інтерфейсу
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Map.js - модифікований клас інтерактивної карти з Google Maps API
 
-### `npm run build`
+nodes.csv & edges.csv - дані графу доріг
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+mapNodes*.csv - дані для різних видів локацій
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Залежності проекту:
+├── @babel/compat-data@7.21.7<br>
+├── @babel/core@7.21.8<br>
+├── @babel/generator@7.21.5<br>
+├── @babel/helper-compilation-targets@7.21.5<br>
+├── @babel/helper-create-class-features-plugin@7.21.8<br>
+├── @babel/helper-module-transforms@7.21.5<br>
+├── @googlemaps/js-api-loader@1.15.1<br>
+├── @testing-library/jest-dom@5.16.5<br>
+├── @testing-library/react@13.4.0<br>
+├── @testing-library/user-event@13.5.0<br>
+├── body-parser@1.20.2<br>
+├── debug@4.3.4<br>
+├── has-flag@5.0.1<br>
+├── leaflet@1.9.4<br>
+├── nan@2.17.0 extraneous<br>
+├── papaparse@5.4.1<br>
+├── react-dom@18.2.0<br>
+├── react-google-maps@9.4.5<br>
+├── react-leaflet@4.2.1<br>
+├── react-scripts@2.1.3<br>
+├── react@18.2.0<br>
+└── web-vitals@2.1.4<br>
